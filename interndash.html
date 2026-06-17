@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1.0'>
+<title>Intern Dashboard</title>
+<link rel='stylesheet' href='interndash.css'>
+</head>
+<body>
+<nav class='navbar'>
+<div class='brand'>
+<img src='C:\Users\Dell\Documents\vs\assets\logo.png' onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+<div class='fallback' style='display:none'>SI</div>
+<span>Steigel Portal</span>
+</div>
+<div class='nav-links'>
+<button id='nav-home' onclick="showSection('home')">Home</button>
+<button id='nav-task' onclick="showSection('task')">Task</button>
+<button id='nav-notification' onclick="showSection('notification')">Notification</button>
+<button id='nav-training' onclick="showSection('training')">Training</button>
+<button id='nav-chat' onclick="showSection('chat')">Chat</button>
+<button id='nav-roadmap' onclick="showSection('roadmap')">Roadmap</button>
+</div>
+<div class='profile' id='profileInitial' onclick='showProfile()'>U</div>
+</nav>
+<main class='shell' id='app'></main>
+<script src='interndash.js'></script>
+</body>
+</html>
